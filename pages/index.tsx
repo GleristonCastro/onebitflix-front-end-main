@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import style from '../styles/HomeNoAtuth.module.scss'
+import style from '../styles/HomeNoAtuth.module.scss';
+import HeaderNoAuth from '@/src/components/homeNoAuth/headerNoAuth';
 
 const HomeNoAuth = () => {
   return (
@@ -10,7 +11,9 @@ const HomeNoAuth = () => {
       <meta property="og:title" content="Onebitflix" key="title" />
       <meta name="description" content="Tenha acesso aos melhores conteúdos sobre programação de uma forma simples e fácil."/>
     </Head>
-    <main></main>
+    <main>
+      <HeaderNoAuth />
+    </main>
     </>
   );
 };
