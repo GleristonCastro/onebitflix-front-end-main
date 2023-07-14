@@ -1,0 +1,30 @@
+$defaultBlack: #151515;
+$defaultWhite: #ffffff;
+$thumbCyan: #868686;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: $defaultBlack;
+  min-height: 100vh;
+  color: $defaultWhite;
+
+  p {
+    margin: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: $defaultBlack;
+}
+::-webkit-scrollbar-thumb {
+  background: $thumbCyan;
+  border-radius: 40px;
+}
