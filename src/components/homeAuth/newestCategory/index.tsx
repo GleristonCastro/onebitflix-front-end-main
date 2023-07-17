@@ -1,6 +1,6 @@
 import courseService from "@/src/services/courseService";
 import useSWR from "swr";
-import SlideComponent from "../../slideComponent";
+import SlideComponent from "../../common/slideComponent";
 import styles from "../../../../styles/slideCategory.module.scss";
 
 const NewestCategory = function () {
