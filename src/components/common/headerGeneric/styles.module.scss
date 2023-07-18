@@ -9,6 +9,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px 0px;
+  gap: 16px;
 }
 
 .headerLogo {
@@ -16,22 +17,19 @@
   cursor: pointer;
 }
 
-.headerBtn {
-  &:hover {
-    border-color: $lightRed;
-    color: $lightGray;
-    background-color: transparent;
-  }
+.headerBtn:hover {
+  border-color: $lightRed;
+  color: $lightGray;
+  background-color: transparent;
 }
 
 @media (max-width: 575px) {
   .headerContainer {
-    padding: 20px 26px;
-    gap: 20px;
+    padding: 20px 16px;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .headerContainer {
     justify-content: center;
   }
